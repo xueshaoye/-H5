@@ -1,0 +1,178 @@
+﻿@charset "UTF-8";
+/*css 初始化 */
+html, body,ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+fieldset, img, input, button ,select{
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+ul, ol {
+    list-style: none;
+}
+input , button{
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "微软雅黑";
+}
+button{
+    cursor:pointer;
+}
+select, input {
+    vertical-align: middle;
+}
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+/*防止拖动*/
+textarea {
+    resize: none;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+table {
+    border-collapse: collapse;
+}
+body {
+    font: 14px/150% "微软雅黑"!important;
+    color: #000;
+    padding: 1.5rem 0 0 0;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+.f-l{
+    float: left;
+}
+.f-r{
+    float: right;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+em ,i{
+    font-style: normal;
+    text-decoration: none;
+}
+.header{
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 1.5rem;
+    padding: 0 .5rem;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.header a{
+    float: left;
+    width: 1rem;
+}
+.header a span{
+    display: inline-block;
+    font-size: .5rem;
+    color: #363537;
+    line-height: 1.5rem;
+}
+.info>h2{
+    font-size: .9rem;
+    line-height: 2.3rem;
+    padding: 0 .5rem;
+    color: #181818;
+    margin: 0;
+}
+.info .info_nav{
+    border-bottom: 1px solid #d4d4d4;
+    padding-bottom: .8rem;
+	background: #3648ac url("../images/bg01.png") center no-repeat;
+    background-size: 100% 100%;
+	padding-top: .8rem;
+	border-radius:0.3rem;
+	margin:0px 0.05rem
+}
+.info .info_nav h3{
+    font-size: .45rem;
+    line-height: .8rem;
+    color: #d6d6d6;
+    margin: 0;
+}
+.info .info_nav p{
+    font-size: .45rem;
+    line-height: .8rem;
+    color: #fff;
+    margin: 0;
+}
+.yuanjiao .Record_list_con:first-child{ border-top-right-radius:0.3rem;border-top-left-radius:0.3rem}
+.yuanjiao .Record_list_con:last-child{ border-bottom-right-radius:0.3rem;border-bottom-left-radius:0.3rem; border-bottom:none}
+.Record{
+    padding: .5rem 0;
+}
+.Record>h3{
+    font-size: .5rem;
+    line-height: 1.4rem;
+    color: #535353;
+    margin: 0;
+    font-weight: 400;
+}
+.Record .Record_btn{
+    padding-left: 1.4rem;
+}
+.Record .Record_btn div{
+    padding: 0;
+}
+.Record .Record_btn div button{
+    width: 2.4rem;
+    font-size: .45rem;
+    line-height: .9rem;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    padding: 0;
+	background:#1d83ff
+}
+.Record_list>h2{
+    margin: 0;
+    font-size: .5rem;
+    line-height: 1.2rem;
+    font-weight: bold;
+    color: #222121;
+}
+.Record_list .Record_list_con{
+    border-bottom: 1px solid #ddd;
+    padding: .3rem 0;
+	background:#fff;
+	margin:0px 0.05rem
+}
+.Record_list .Record_list_con h3{
+    font-size: .4rem;
+    height: .8rem;
+    line-height: .8rem;
+    color: #111312;
+    margin: 0;
+    font-weight: 400;
+}
+.Record_list .Record_list_con p{
+    font-size: .4rem;
+    line-height: .8rem;
+    color: #bdbdbd;
+    margin: 0;
+}

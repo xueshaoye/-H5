@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#333;font: 16px/1.5 "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;overflow-x: hidden; max-width: 640px; margin: auto;}
+td,th,caption { font-size:16px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var,i { font-style:normal; font-weight:normal;}
+a { color:#000; text-decoration:none; }
+a:hover { text-decoration:none; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:16px Microsoft Yahei,Helvetica,Arial,sans-serif;outline:none; margin:0px; padding:0px; }
+table { border-collapse:collapse; }
+
+
+
+/*字体主题颜色*/
+/*导航*/
+.bodyView {padding-top: 44px; }
+.headView {height: 44px; position: fixed; left: 0; top: 0; width: 100%; z-index: 999999; padding: 0 15px; background-color: #3648ac;}
+.backIcon {width: 44px; height: 44px; display: block; float: left; position: relative; z-index: 100;}
+.backIcon span {display: block; line-height: 44px; font-size: 12px; color: #fff; text-align: left;}
+.headTitle {position: absolute; left: 0; top: 0; height: 44px; width: 100%; line-height: 44px; z-index: 50; text-align: center; padding: 0 59px; font-size: 18px; color: #fff;}
+
+
+.contectView {background-color: #fff; }
+
+
+.dataView {background-color:#3648ac; padding:0.22rem 0.15rem;}
+.homeRow1 .col-lg-6 {width: 50%; float: left;}
+.homeRow1 .col-lg-6:first-child {border-right: 1px solid rgba(255,255,255,0.3); }
+.number1 {font-size: 36px; font-weight: 400; color: #fff; line-height: 50px;}
+.homeRow1 .col-lg-6 span {display: block; font-size: 12px; color: #fff; margin-bottom: 0.1rem;}
+.dayTitle {font-size: 28px; font-weight: 400; color: #fff; line-height: 50px;}
+.payTitle {margin: 0.15rem 15px; font-size: 14px; color: #fff;}
+.contsView { background-color: #fff; padding: 0 15px; border-top: 0.2rem solid #f0f0f0; border-bottom: 0.2rem solid #f0f0f0;}
+.contsView h1 {font-size: 16px; color: #000; padding-top: 0.2rem; padding-bottom: 0.4rem;}
+.details {margin-bottom: 10px;}
+.details span {display: block; font-size: 14px;}
+.details .name {width: 25%; float: left;}
+.details .infoTitle {width: 75%; float: left;}
+.jieshao { padding-bottom: 0.2rem;}
+.jieshao p {display: block; font-size: 14px; font-weight: 400;}
+.surplus {margin-top: 0.4rem; line-height: 40px; text-align: center; font-size: 14px; color: rgb(255, 152, 0);     background-color: rgb(255, 247, 236);}
+.epositdIn {font-size: 18px; color: #fff; line-height: 42px; background-color:rgb(63, 81, 181);  width: 100%; text-align: center; display: block; border: none; box-shadow: none;}
+
+
+
+@media screen and (max-width:740px) {
+    body {width: 100%;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

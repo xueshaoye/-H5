@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fff;
+	color: #333;
+	font: 16px/1.5 "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;
+	overflow-x: hidden;
+	max-width: 640px;
+	margin: auto;
+}
+
+td,th,caption {
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-size: 100%;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var,i {
+	font-style: normal;
+	font-weight: normal;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+}
+
+ol,ul,li {
+	list-style: none;
+}
+
+input, textarea, select, button {
+	font: 16px Microsoft Yahei,Helvetica,Arial,sans-serif;
+	outline: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+
+
+/*字体主题颜色*/
+/*导航*/
+.bodyView {
+	padding-top: 44px;
+	background-color: #f0f0f0;
+}
+
+.headView {
+	height: 44px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 999999;
+	padding: 0 15px;
+	background-color: #f0f0f0;
+}
+
+.backIcon {
+	width: 44px;
+	height: 44px;
+	display: block;
+	float: left;
+	position: relative;
+	z-index: 100;
+}
+
+.backIcon span {
+	display: block;
+	line-height: 44px;
+	font-size: 12px;
+	color: #000;
+	text-align: left;
+}
+
+.headTitle {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 44px;
+	width: 100%;
+	line-height: 44px;
+	z-index: 50;
+	text-align: center;
+	padding: 0 59px;
+	font-size: 18px;
+	color: #000;
+}
+
+.contectView {
+	background-color: transparent;
+}
+
+.dataView {
+	padding: 0.22rem 0.15rem;
+}
+
+.headCont {
+	background: #3648ac url("../images/bg.png") center no-repeat;
+	background-size: cover;
+	border-radius: 6px;
+}
+
+.numberTitle {
+	padding-top: 20px;
+	line-height: 40px;
+	font-family: PingFangSC;
+	font-weight: 400;
+	font-size: 28px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.rengou {
+	margin-bottom: 15px;
+	margin-top: 5px;
+	font-family: PingFangSC;
+	font-weight: 400;
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.numberTitle span {
+	position: relative;
+	display: inline-block;
+}
+
+.numberTitle .suocang {
+	border: 1px solid #fff;
+	font-size: 12px;
+	position: relative;
+	top: -6px;
+	padding: 0 10px;
+	border-radius: 20px;
+	line-height: 22px;
+	opacity: 0.5;
+}
+
+.homeRow1 {
+	padding-bottom: 20px;
+}
+
+.homeRow1 .col-lg-4 {
+	width: 33.333333%;
+	float: left;
+	position: relative;
+}
+
+.homeRow1 .col-lg-4:after {
+	display: block;
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 25%;
+	width: 1px;
+	height: 50%;
+	background-color: rgba(255,255,255,0.3);
+}
+
+.homeRow1 .col-lg-4:last-child {
+	border-right: 0;
+}
+
+.homeRow1 .col-lg-4 span {
+	display: block;
+	font-size: 12px;
+	color: #fff;
+	margin-bottom: 0.1rem;
+}
+
+.number2 {
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 35px;
+	font-family: PingFangSC;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.dayTitle {
+	font-size: 28px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 50px;
+}
+
+.payTitle {
+	margin: 0.15rem 15px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.contsView {
+	background-color: transparent;
+	padding: 0 15px;
+}
+
+.contsView h1 {
+	font-size: 16px;
+	color: #000;
+	padding-top: 0.2rem;
+	padding-bottom: 0.4rem;
+}
+
+.infoList li {
+	padding-left: 10px;
+}
+
+.details {
+	margin-bottom: 10px;
+}
+
+.details span {
+	display: block;
+	font-size: 14px;
+}
+
+.details .name {
+	width: 25%;
+	float: left;
+}
+
+.details .infoTitle {
+	width: 75%;
+	float: left;
+}
+
+.jieshao {
+	padding-bottom: 0.2rem;
+}
+
+.jieshao p {
+	display: block;
+	font-size: 14px;
+	font-weight: 400;
+	padding-left: 10px;
+}
+
+.surplus {
+	margin-top: 0.4rem;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: rgb(255, 152, 0);
+	background-color: rgb(255, 247, 236);
+}
+
+.epositdIn {
+	font-size: 18px;
+	color: #fff;
+	line-height: 42px;
+	background-color: rgb(63, 81, 181);
+	width: 100%;
+	text-align: center;
+	display: block;
+	border: none;
+	box-shadow: none;
+}
+
+@media screen and (max-width:740px) {
+	body {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

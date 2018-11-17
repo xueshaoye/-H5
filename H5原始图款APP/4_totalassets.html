@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 禁用缩放功能 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>我的理财💑</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body{
+            background-color: #FFFFFF;
+        }
+        .row{margin: 0;}
+        .col-md-8,.col-md-4{padding: 0;}
+        .header-container{overflow: hidden;background-color: #3F51B5;color: #fff;padding: 20px 29px;}
+        .header-container-amount{background-color: #fff;color: #000;}
+        .header-container .col-md-8{float: left;}
+        .header-container .col-md-4{float: right;}
+        .profit-container{overflow: hidden;background-color: #4C5CB5;color: #fff;padding: 20px 29px;font-size: 14px;}
+        .profit-container .col-md-4{float: left;}
+        .hot-container{padding: 0 10px;}
+        .hot-tree-node{overflow: hidden;padding-bottom: 10px;}
+        .hot-tree-node .col-md-4{float: left;font-size: 10px;color: #000;}
+        .hot-percent{font-size: 24px;color: #DB0008;}
+        .hot-time{font-size: 14px;color: #101010;line-height: 28px;}
+        .menu-left{left: 0px;top: 20px;width: 375px;height: 34px;color: rgba(16, 16, 16, 1)font-size: 18px;text-align: center;font-family: Microsoft Yahei;font-size: 17px;margin-top: 10px;background-color: #f8f8f8;}
+        .bottomtext div{font-size: 14px;color: rgba(16, 16, 16, 1);font-family: PingFangSC-regular;}
+        .bottomtext{font-size: 14px;color: rgba(16, 16, 16, 1);font-family: PingFangSC-regular;}
+    </style>
+  </head>
+  <body>
+    <div class="row" style="background-color: #f8f8f8;">
+        <div class="menu-left">
+        <span class="glyphicon glyphicon-menu-left" aria-hidden="true" style="float: left;width: 40px;margin-top: 3px;"></span><span style="padding-right: 4%;">我的资产</span></div>
+    </div>
+
+    <!-- 底部最后 -->
+    <div class="hot-container">
+
+        <h3 style="left: 18px;top: 96px;width: 58px;height: 20px;color: rgba(16, 16, 16, 1);font-size: 14px;text-align: left;font-family: SourceHanSansSC-bold;">资产分布</h3>
+
+        <div class="row hot-tree-node">
+            <div class="bottomtext" class="hot-time">BTC
+            <span class="glyphicon glyphicon-menu-right" style="color: #BDBBBB;float: right;margin-right: 3%;" aria-hidden="true"></span>
+            </div>
+            <div class="col-md-4 bottomtext">
+                <div class="hot-time">可用</div>
+                <div class="hot-time">7.56%</div>
+            </div>
+            <div class="col-md-4 bottomtext" style="margin-left: 8%;">
+                <div class="hot-time">冻结</div>
+                <div class="hot-time">0.32366</div>
+            </div>
+            <div class="col-md-4 bottomtext" style="float: right;">
+                <div class="hot-time" style="text-align: right;margin-right: 14%;color: #BFBFBF;">折合（CNY）</div>
+                <div class="hot-time">10:37 10/12</div>
+            </div>
+        </div>
+    </div>
+    <!-- 下划线 -->
+    <hr style="margin-top: 4px;background-color: #f8f8f8;">
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
